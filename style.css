@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open Sans Condensed:300'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;400;700&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+}
+
+header h1 {
+    margin: 0.5em;
+    font-size: 2.5em;
+}
+
+.portfolio-link {
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 1px solid white;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+#hero {
+    display: flex;
+    padding-top: 3em;
+}
+
+.heading-and-text {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 8em;
+}
+
+.heading-and-text h2{
+    padding-bottom: 0.25em;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+
+
+.description-text {
+    font-size: 2em;
+    line-height: 1.75em;
+}
+
+.app-img {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-img img {
+    width: 400px;
+    height: 667px;
+}
+
+#overview {
+    padding: 8em;
+}
+
+.centered-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 4.5em;
+}
+
+
+.h4-and-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.h4-and-text h4 {
+    width: 25vw;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.overview-text {
+    font-size: 2em;
+    line-height: 1.75em;
+    width: 50vw;
+}
+
+.conquer {
+    color: red;
+}
+
+.resources {
+    color: #05E5FF;
+}
+
+.conquered {
+    color: #00FF1E;
+}
+
+#glimpse {
+    display: flex;
+    padding: 8em;
+}
+
+#glimpse h3 {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+}
+
+.video-container {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container video {
+    width: 500px;
+    height: 700px;
+}
+
+#tech {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.logos img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-container p {
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.diagram {
+    width: 70vw;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-radius: 5em;
+}
+
+#try-it-out {
+    padding-top: 20em;
+    padding-bottom: 20em;
+}
+
+#try-it-out h3 {
+    font-size: 7em;
+    border-bottom: 1px white solid;
+}
+
+#try-it-out p {
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    padding: 1em;
+    background-color: #1c1c1c;
+}
+
+@media only screen and (max-width: 1000px) {
+    #hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .app-img {
+        width: 80vw;
+    }
+
+    .heading-and-text {
+        margin: 0;
+        width: 80vw;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3.5em;
+    }
+
+    .description-text {
+        font-size: 1.5em;
+    }
+    .overview-text {
+        font-size: 1.25em;
+        line-height: 1.75em;
+        width: 70vw;
+    }
+
+    .h4-and-text {
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .h4-and-text h4 {
+        width: 70vw;
+        padding: 0.5em;
+    }
+
+    #glimpse {
+        flex-direction: column;
+        padding: 5em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #glimpse h3 {
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4em;
+        text-align: center;
+        padding-bottom: 0.1em;
+    }
+
+    .diagram {
+        width: 90vw;
+    }
+
+    #try-it-out h3 {
+        font-size: 4em;
+    }
+
+    #try-it-out p {
+        font-size: 1em;
+    }
+    .heading {
+        font-size: 3.5em;
+    }
+
+    .logo-container {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .logo-container img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-container {
+        padding-left: 0.4vw;
+        padding-right: 0.4vw;
+    }
+
+    .logo-container img {
+        width: 60px;
+        height: 60px;
+    }
+    #try-it-out h3 {
+        font-size: 3em;
+        border-bottom: 1px white solid;
+    }
+}
